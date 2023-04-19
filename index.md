@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Sukino"
-  text: "HelloYeew's personal documentation to make your life more sukino"
+  name: "Suki"
+  text: "HelloYeew's personal documentation to make your life more suki"
   tagline: My great project tagline
   actions:
     - theme: brand

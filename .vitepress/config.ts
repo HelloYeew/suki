@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Sukino",
-  description: "My personal documentation to make my life more sukino",
+  description: "My personal documentation to make my life more suki",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -48,7 +48,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/HelloYeew/sukino' }
+      { icon: 'github', link: 'https://github.com/HelloYeew/suki' }
     ]
   }
 })

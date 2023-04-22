@@ -4,22 +4,17 @@ layout: home
 
 hero:
   name: "Suki"
-  text: "HelloYeew's personal documentation to make your life more suki"
-  tagline: My great project tagline
+  text: "My digital garden and documentation to make my life more suki"
+  tagline: "A collection of my thoughts, ideas, and notes" 
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: "Start exploring"
+      link: /garden/index.md
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Digital garden
+    details: Explore my digital garden here!
+  - title: Project documentation
+    details: Explore my project documentation here! 
 ---
 

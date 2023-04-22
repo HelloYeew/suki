@@ -3,28 +3,35 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Sukino",
-  description: "My personal documentation to make my life more suki",
+  description: "My digital garden and documentation to make my life more suki",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Garden', link: '/garden/index.md' }
     ],
 
     sidebar: [
       {
-        text: 'AWS',
+        text: 'Linux',
         collapsed: true,
         items: [
           {
-            text: 'EC2',
+            text: 'Amazon Linux',
+            collapsed: true,
+            items: [
+              {text: 'Open port', link: '/garden/linux/amazon-linux/open-port'}
+            ]
+          },
+          {
+            text: 'Ubuntu',
             collapsed: true,
             items: [
               {
-                text: 'Amazon Linux',
+                text: 'Python',
                 collapsed: true,
                 items: [
-                  {text: 'Open port', link: '/aws/ec2/amazon-linux/open-port'}
+                  {text: 'Install Python 3.11', link: '/garden/linux/ubuntu/python/install-python-3-11.md'}
                 ]
               }
             ]
@@ -39,8 +46,8 @@ export default defineConfig({
             text: 'PostgreSQL',
             collapsed: true,
             items: [
-              {text: 'Enable remote connection', link: '/database/postgresql/enable-connection'},
-              {text: 'Manage user', link: '/database/postgresql/manage-user'}
+              {text: 'Enable remote connection', link: '/garden/database/postgresql/enable-connection'},
+              {text: 'Manage user', link: '/garden/database/postgresql/manage-user'}
             ]
           }
         ]

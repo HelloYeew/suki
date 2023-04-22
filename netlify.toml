@@ -12,7 +12,7 @@
   # a base has not been set. This sample publishes the directory
   # located at the absolute path "root/project/build-output"
 
-  publish = "docs/.vitepress/dist"
+  publish = ".vitepress/dist"
   command = "npm install -D vitepress && npm run docs:build"
 
   # Default build command.

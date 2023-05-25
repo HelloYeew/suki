@@ -31,7 +31,8 @@ export default defineConfig({
                 text: 'Python',
                 collapsed: true,
                 items: [
-                  {text: 'Install Python 3.11', link: '/garden/linux/ubuntu/python/install-python-3-11.md'}
+                  {text: 'Install Python 3.11', link: '/garden/linux/ubuntu/python/install-python-3-11.md'},
+                  {text: '403 error on Django', link: '/garden/linux/ubuntu/python/403-forbidden-django.md'}
                 ]
               }
             ]

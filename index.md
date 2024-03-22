@@ -10,11 +10,18 @@ hero:
     - theme: brand
       text: "Start exploring"
       link: /garden/index.md
+    - theme: alt
+      text: "GitHub"
+      link: https://github.com/HelloYeew/suki
 
 features:
   - title: Digital garden
     details: Explore my digital garden here!
-  - title: Project documentation
-    details: Explore my project documentation here! 
+    link: /garden/index.md
+    icon: 🌱
+  - title: Notes
+    details: All of notes from the book that I read
+    link: /notes/index.md
+    icon: 📚
 ---
 
